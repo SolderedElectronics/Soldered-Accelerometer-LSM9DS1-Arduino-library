@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['sendaddress_0',['sendAddress',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a7f716bbd85e3792cae6499061a7835f7',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['senddata_1',['sendData',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a8296d38ba78ba4d45804a5db26663d71',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['sensor_2',['Sensor',['../class_sensor.html',1,'Sensor'],['../class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62',1,'Sensor::Sensor()']]]
+  ['readacceleration_0',['readAcceleration',['../class_l_s_m9_d_s1_class.html#a242ed0cdc277cedea6eb10dd6d3a3d00',1,'LSM9DS1Class']]],
+  ['readgyroscope_1',['readGyroscope',['../class_l_s_m9_d_s1_class.html#ab66055240484939b0e407b4ebcd4d018',1,'LSM9DS1Class']]],
+  ['readmagneticfield_2',['readMagneticField',['../class_l_s_m9_d_s1_class.html#a1618f17e007ff385f072fb2d98ebee3c',1,'LSM9DS1Class']]],
+  ['readme_2emd_3',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['readregister_4',['readRegister',['../class_l_s_m9_d_s1_class.html#a42b04194796c4f3583612084037610da',1,'LSM9DS1Class']]],
+  ['readregisters_5',['readRegisters',['../class_l_s_m9_d_s1_class.html#afa60458036011d5bb4e32fd156be0fee',1,'LSM9DS1Class']]]
 ];

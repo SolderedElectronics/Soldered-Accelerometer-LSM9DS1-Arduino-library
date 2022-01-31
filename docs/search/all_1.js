@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a6cc54c42df12088fb26c95d7aabb4534',1,'EASYC_SOLDERED_LIBS::EasyC::begin()'],['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aaf85911806bdd2b01162047e53c0090b',1,'EASYC_SOLDERED_LIBS::EasyC::begin(uint8_t _address)']]],
-  ['begindone_1',['beginDone',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aa55074f480410ec00272d0a23b540074',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['accelerationavailable_0',['accelerationAvailable',['../class_l_s_m9_d_s1_class.html#a012bb8a154450cc94bd8c098dc71b492',1,'LSM9DS1Class']]],
+  ['accelerationsamplerate_1',['accelerationSampleRate',['../class_l_s_m9_d_s1_class.html#a1a12bd8d7dbd8500db101d6e4094c557',1,'LSM9DS1Class']]],
+  ['arduino_5flsm9ds1_2eh_2',['Arduino_LSM9DS1.h',['../_arduino___l_s_m9_d_s1_8h.html',1,'']]]
 ];

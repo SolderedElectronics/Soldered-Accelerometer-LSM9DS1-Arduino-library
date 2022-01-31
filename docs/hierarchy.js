@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "EASYC_SOLDERED_LIBS::EasyC", "class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html", [
-      [ "Sensor", "class_sensor.html", null ]
+    [ "LSM9DS1Class", "class_l_s_m9_d_s1_class.html", [
+      [ "LSM9DS1", "class_l_s_m9_d_s1.html", null ]
     ] ]
 ];

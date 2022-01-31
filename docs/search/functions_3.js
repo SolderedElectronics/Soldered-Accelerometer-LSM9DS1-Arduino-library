@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a64631d9b1f7d05f32f85b547097e83b5',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['readregister_1',['readRegister',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a759023180eea23f55cbb24cbd89ec3b8',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['gyroscopeavailable_0',['gyroscopeAvailable',['../class_l_s_m9_d_s1_class.html#a11d4bb4668600e6d402609bbf304809a',1,'LSM9DS1Class']]],
+  ['gyroscopesamplerate_1',['gyroscopeSampleRate',['../class_l_s_m9_d_s1_class.html#abc4b5592cceb8ab6fd94e023e40e5dd6',1,'LSM9DS1Class']]]
 ];

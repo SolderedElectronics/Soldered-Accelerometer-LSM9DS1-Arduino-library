@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html',1,'EASYC_SOLDERED_LIBS']]]
+  ['lsm9ds1_0',['LSM9DS1',['../class_l_s_m9_d_s1.html',1,'']]],
+  ['lsm9ds1class_1',['LSM9DS1Class',['../class_l_s_m9_d_s1_class.html',1,'']]]
 ];

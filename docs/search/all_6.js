@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['native_0',['native',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#ab4a677cb6435085086c9b532a9d27b5e',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['naziv_20proizvoda_20arduino_20library_1',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]]
+  ['imu_0',['IMU',['../_l_s_m9_d_s1_8cpp.html#a7406a661ca07e5878c3a706240e03011',1,'IMU():&#160;LSM9DS1.cpp'],['../_l_s_m9_d_s1_8h.html#a918c4b24f6a0c6604a8223c4d138e2c7',1,'IMU():&#160;LSM9DS1.h'],['../_l_s_m9_d_s1_8cpp.html#adb77553221cdb6e2fea59fe78f77c8ce',1,'IMU(Wire):&#160;LSM9DS1.cpp']]]
 ];
