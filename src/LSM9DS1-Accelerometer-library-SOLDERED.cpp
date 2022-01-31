@@ -16,9 +16,8 @@
  * @brief                   Constructor.
  *
  */
-LSM9DS1::LSM9DS1(TwoWire& wire) : LSM9DS1Class(wire)
+LSM9DS1::LSM9DS1(TwoWire &wire) : LSM9DS1Class(wire)
 {
-
 }
 
 #ifdef ARDUINO_ARDUINO_NANO33BLE

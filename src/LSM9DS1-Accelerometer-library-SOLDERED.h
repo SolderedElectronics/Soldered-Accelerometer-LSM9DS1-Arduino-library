@@ -18,7 +18,7 @@
 class LSM9DS1 : public LSM9DS1Class
 {
   public:
-    LSM9DS1(TwoWire& wire);
+    LSM9DS1(TwoWire &wire);
 
   protected:
   private:
