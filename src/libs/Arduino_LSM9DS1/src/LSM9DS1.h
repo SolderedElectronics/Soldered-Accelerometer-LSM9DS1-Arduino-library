@@ -20,9 +20,10 @@
 #include <Arduino.h>
 #include <Wire.h>
 
-class LSM9DS1Class {
+class LSM9DS1Class
+{
   public:
-    LSM9DS1Class(TwoWire& wire);
+    LSM9DS1Class(TwoWire &wire);
     virtual ~LSM9DS1Class();
 
     int begin();
@@ -34,28 +35,28 @@ class LSM9DS1Class {
     void setOneShotMode();
 
     // Accelerometer
-    virtual int readAcceleration(float& x, float& y, float& z); // Results are in G (earth gravity).
-    virtual int accelerationAvailable(); // Number of samples in the FIFO.
-    virtual float accelerationSampleRate(); // Sampling rate of the sensor.
+    virtual int readAcceleration(float &x, float &y, float &z); // Results are in G (earth gravity).
+    virtual int accelerationAvailable();                        // Number of samples in the FIFO.
+    virtual float accelerationSampleRate();                     // Sampling rate of the sensor.
 
     // Gyroscope
-    virtual int readGyroscope(float& x, float& y, float& z); // Results are in degrees/second.
-    virtual int gyroscopeAvailable(); // Number of samples in the FIFO.
-    virtual float gyroscopeSampleRate(); // Sampling rate of the sensor.
+    virtual int readGyroscope(float &x, float &y, float &z); // Results are in degrees/second.
+    virtual int gyroscopeAvailable();                        // Number of samples in the FIFO.
+    virtual float gyroscopeSampleRate();                     // Sampling rate of the sensor.
 
     // Magnetometer
-    virtual int readMagneticField(float& x, float& y, float& z); // Results are in uT (micro Tesla).
-    virtual int magneticFieldAvailable(); // Number of samples in the FIFO.
-    virtual float magneticFieldSampleRate(); // Sampling rate of the sensor.
+    virtual int readMagneticField(float &x, float &y, float &z); // Results are in uT (micro Tesla).
+    virtual int magneticFieldAvailable();                        // Number of samples in the FIFO.
+    virtual float magneticFieldSampleRate();                     // Sampling rate of the sensor.
 
   private:
     bool continuousMode;
     int readRegister(uint8_t slaveAddress, uint8_t address);
-    int readRegisters(uint8_t slaveAddress, uint8_t address, uint8_t* data, size_t length);
+    int readRegisters(uint8_t slaveAddress, uint8_t address, uint8_t *data, size_t length);
     int writeRegister(uint8_t slaveAddress, uint8_t address, uint8_t value);
 
   private:
-    TwoWire* _wire;
+    TwoWire *_wire;
 };
 
 extern LSM9DS1Class IMU;
