@@ -20,14 +20,14 @@ void setup() {
   while (!Serial);
   Serial.println("Started");
 
-  if (!LSM9.begin())
+  if (!LSM9.begin())  //Check if communication is started successfully
   {
     Serial.println("Failed to initialize LSM9!");
     while (1);
   }
   
   Serial.print("Magnetic field sample rate = ");
-  Serial.print(LSM9.magneticFieldSampleRate());
+  Serial.print(LSM9.magneticFieldSampleRate()); //Get sample rate
   Serial.println(" uT");
   Serial.println();
   Serial.println("Magnetic Field in uT");
@@ -37,14 +37,15 @@ void setup() {
 void loop() {
   float x, y, z;
 
-  if (LSM9.magneticFieldAvailable()) 
+  if (LSM9.magneticFieldAvailable()) //Check if sensor has measured magnetic fields
   {
-    LSM9.readMagneticField(x, y, z);
+    LSM9.readMagneticField(x, y, z);  //Get x, y and z axis magnetic field and
+                                      //save them in variables
 
-    Serial.print(x);
+    Serial.print(x);                  //Print x axis magnetic field
+    Serial.print('\t');               
+    Serial.print(y);                  //Print y axis magnetic field
     Serial.print('\t');
-    Serial.print(y);
-    Serial.print('\t');
-    Serial.println(z);
-  }
+    Serial.println(z);                //Print z axis magnetic field
+  } 
 }

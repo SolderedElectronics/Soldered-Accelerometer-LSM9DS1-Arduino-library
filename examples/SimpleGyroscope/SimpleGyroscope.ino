@@ -20,14 +20,14 @@ void setup() {
   while (!Serial);
   Serial.println("Started");
 
-  if (!LSM9.begin()) 
+  if (!LSM9.begin())  //Check if communication is started successfully
   {
     Serial.println("Failed to initialize LSM9!");
     while (1);
   }
   
   Serial.print("Gyroscope sample rate = ");
-  Serial.print(LSM9.gyroscopeSampleRate());
+  Serial.print(LSM9.gyroscopeSampleRate()); //Get sample rate
   Serial.println(" Hz");
   Serial.println();
   Serial.println("Gyroscope in degrees/second");
@@ -37,14 +37,15 @@ void setup() {
 void loop() {
   float x, y, z;
 
-  if (LSM9.gyroscopeAvailable()) 
+  if (LSM9.gyroscopeAvailable()) //Check if sensor has measured rotation rate
   {
-    LSM9.readGyroscope(x, y, z);
+    LSM9.readGyroscope(x, y, z);  //Get x, y and z axis rotation rate and
+                                  //save them in variables
 
-    Serial.print(x);
+    Serial.print(x);              //Print x axis rotation rate
     Serial.print('\t');
-    Serial.print(y);
+    Serial.print(y);              //Print y axis rotation rate
     Serial.print('\t');
-    Serial.println(z);
+    Serial.println(z);            //Print z axis rotation rate
   }
 }
