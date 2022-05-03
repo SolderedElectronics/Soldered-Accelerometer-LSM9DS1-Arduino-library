@@ -1,6 +1,5 @@
 # LSM9DS1 Accelerometer, Gyroscope and Magnetometer by Soldered Arduino library
 
-[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Accelerometer-LSM9DS1-Arduino-library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Accelerometer-LSM9DS1-Arduino-library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Accelerometer-LSM9DS1-Arduino-library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Accelerometer-LSM9DS1-Arduino-library/actions/workflows/make_docs.yml)
 
 | ![LSM9DS1 Accelerometer, Gyroscope and Magnetometer breakout board](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)        |
@@ -23,6 +22,12 @@ Access Arduino library documentation [here](https://e-radionicacom.github.io/Sol
 
 - Tutorial for using the LSM9DS1 Accelerometer, Gyroscope and Magnetometer board
 - Installing an Arduino library
+
+### Board compatibility
+
+The library is compatible with board & microcontroller families shown in green below: 
+
+[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Accelerometer-LSM9DS1-Arduino-library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Accelerometer-LSM9DS1-Arduino-library/actions/workflows/compile_test.yml)
 
 ### About Soldered
 ![Soldered logo](https://raw.githubusercontent.com/e-radionicacom/Soldered-Accelerometer-LSM9DS1-Arduino-library/dev/extras/Logo%20horizontal-2.svg)
